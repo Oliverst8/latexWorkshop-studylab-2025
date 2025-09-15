@@ -55,6 +55,20 @@ tables:
 \listoftables
 ```
 
+## Reference something
+
+To reference something in latex we just use the \ref command with a
+mention of its label
+
+```latex
+\section{Multiple nedarvning}\label{section1}
+\section{Klasse struktur}
+Som vi kunne se i afsnit \ref{section1} multiple nedarvning
+```
+
+When doing references like this it will keep the reference to the correct number
+if the number of the referenced item changes.
+
 ## Multiple bibliographies in latex
 
 Main document
