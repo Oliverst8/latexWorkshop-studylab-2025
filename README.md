@@ -25,6 +25,36 @@ where you want it to appear
 \listoffigures
 ```
 
+## Create a table
+
+```latex
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|l|}
+\hline
+Linje nr & Indhold \\
+\hline
+\hline
+1 & Tabel eksempel \\
+2 & Tabel eksempel \\
+\hline
+3 & Tabel eksempel \\
+\hline
+\end{tabular}
+\caption{Caption}
+\label{tab:my-label}
+\end{table}
+```
+
+### List of figures
+
+In the same way we can create a list of our figures, can we create a list of our
+tables:
+
+```latex
+\listoftables
+```
+
 ## Multiple bibliographies in latex
 
 Main document
