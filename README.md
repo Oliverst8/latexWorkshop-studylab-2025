@@ -1,5 +1,30 @@
 # Latex workshop
 
+## Create a figure
+
+```latex
+%Add the following two lines to the top of your document
+\usepackage{graphicx}
+\usepackage{float}
+
+%Add the following where you want your figure to be inserted
+\begin{figure}[H]
+\centering
+\includegraphics{img/my-image.png}
+\caption{Billedtekst her}
+\label{fig:my-figure-label}
+\end{figure}
+```
+
+### Figure list
+
+To add a list of your included figures, add the following line in your section
+where you want it to appear
+
+```latex
+\listoffigures
+```
+
 ## Multiple bibliographies in latex
 
 Main document
